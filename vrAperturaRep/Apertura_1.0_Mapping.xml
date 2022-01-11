@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actormapping:actorMappings xmlns:actormapping="http://www.bonitasoft.org/ns/actormapping/6.0">
+  <actorMapping name="directorApertura">
+    <groups/>
+    <memberships/>
+    <roles/>
+    <users>
+      <user>jgrunauer</user>
+    </users>
+  </actorMapping>
+  <actorMapping name="revisorApertura">
+    <groups/>
+    <memberships/>
+    <roles/>
+    <users>
+      <user>ihasing</user>
+    </users>
+  </actorMapping>
+</actormapping:actorMappings>

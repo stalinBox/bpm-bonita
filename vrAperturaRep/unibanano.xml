@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="jgrunauer">
+      <firstName>José</firstName>
+      <lastName>Grunauer</lastName>
+      <title></title>
+      <manager></manager>
+      <personalData>
+        <email>jgrunauer@mag.gob.ec</email>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="megatron">
+      <firstName>Megatron</firstName>
+      <lastName>Decepticon</lastName>
+      <manager></manager>
+      <personalData>
+        <email>mmolinad@mag.gob.ec</email>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ihasing">
+      <firstName>Ileana</firstName>
+      <lastName>Hasing</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Aprobador">
+      <displayName>Aprobador</displayName>
+    </role>
+    <role name="Revisor">
+      <displayName>Revisor</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Directores">
+      <displayName>Directores</displayName>
+      <description>Grupo de directores</description>
+    </group>
+    <group name="Tecnicos">
+      <displayName>Técnicos</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>jgrunauer</userName>
+      <roleName>Aprobador</roleName>
+      <groupName>Directores</groupName>
+    </membership>
+    <membership>
+      <userName>megatron</userName>
+      <roleName>Aprobador</roleName>
+      <groupName>Directores</groupName>
+    </membership>
+    <membership>
+      <userName>ihasing</userName>
+      <roleName>Revisor</roleName>
+      <groupName>Tecnicos</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
